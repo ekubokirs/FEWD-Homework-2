@@ -31,14 +31,8 @@ Developer @GA in NYC
   clear: both;
 }
 
-.alignright {
-  float: right;
-  padding: 0 0 10px 10px; /* note the padding around a right floated image */
-}
-
-.alignleft {
-  float: left;
-  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+.aligncenter {
+  text-align: center;
 }
 
 /******************************************
@@ -46,12 +40,9 @@ Developer @GA in NYC
 /*******************************************/
 
 body {
-     color: #000;
-     font-size: 12px;
-     line-height: 1.4;
-     font-family: Helvetica, Arial, sans-serif;
-     background: url(../images/header_bg.jpg) no-repeat center top rgb(134,141,157);
-      background-size: cover;
+  color: #000;
+  font-family: 'Open Sans', sans-serif;
+
 }
 
 
@@ -63,22 +54,144 @@ body {
 #container {
   width: 100%;
   margin: auto;
-  height: 500px;
+  height: 600px;
 
+}
+
+h1 {
+  text-align: left;
+  font-weight: 800;
+  padding: 10px;
 }
 
 header {
+  background-image: url(../images/header_bg.jpg);
+  background-size: cover;
+  font-size: 24px;
+  color: #ffffff;
+  text-align: center;
+  padding: 10px;
+}
+
+#subtitle1 {
+  margin: 50px;
+  font-weight: 600;
+}
+
+button {
+  background: #f9e42e;
+  font-size: 14px;
+  font-weight: 800;
+  border-radius: 5px;
+  padding: 5px;
+  border: 0;
+  width: 150px;
+}
+
+#button1 {
+  margin: 30px;
+}
+
+
+main {
+  background: #f0efef;
+  padding: 40px;
 
 }
+
+h2 {
+  font-weight: 600;
+  font-size: 20px;
+  color: #033048;
+}
+
+#subtitle2 {
+  font-size: 13px;
+  font-weight: 300;
+  margin: 30px;
+}
+
+ul {
+  font-weight: 300;
+  font-size: 13px;
+  margin-left: 70px;
+}
+
+li {
+  list-style: disc;
+}
+
+section {
+  background-image: url(../images/testimonial_bg.jpg);
+  background-size: cover;
+  text-align: center;
+
+}
+
+#quote {
+  font-weight: 300;
+  padding: 50px;
+  font-size: 18px;
+  color: #ffffff;
+  font-style: italic;
+}
+
+#quotename {
+  font-weight: 600;
+  font-style: normal;
+  font-size: 18px;
+  padding: 10px;
+
+}
+
+#buttonB {
+  background: #f9e42e;
+  padding: 20px;
+}
+
+#button2 {
+  background: #033048;
+  color: #ffffff;
+}
+
+
+#closetitle {
+  font-weight: 800;
+  font-size: 24px;
+  color: #f9e42e;
+  background: #121212;
+  padding: 20px;
+}
+
+.leftphoto {
+  background: #121212;
+  float: left;
+  height: 100px;
+  width: 50%;
+  text-align: right;
+  padding: 20px;
+  }
+
+
+.rightphoto {
+  background: #121212;
+  float: right;
+  height: 100px;
+  width: 50%;
+  text-align: left;
+  padding: 20px;
+  }
 
 footer {
-
+  background: #121212;
+  text-align: center;
+  padding: 20px;
+  font-size: 9px;
+  font-weight: 600;
+  color: #ffffff;
 }
+
 
 /******************************************
 /* ADDITIONAL STYLES
 /*******************************************/
-
-
-
-
